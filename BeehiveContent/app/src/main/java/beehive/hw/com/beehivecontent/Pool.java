@@ -2,10 +2,6 @@ package beehive.hw.com.beehivecontent;
 
 import android.support.v4.util.SparseArrayCompat;
 
-/**
- * Created by qibin on 16-9-25.
- */
-
 public class Pool<T> {
     private SparseArrayCompat<T> mPool;
     private New<T> mNewInstance;
